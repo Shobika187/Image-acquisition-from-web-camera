@@ -32,8 +32,8 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180).
 ### Developed By: Shobika P
 ### Register No:212221230096
 
-## i) Write the frame as JPG file
-```
+ i) Write the frame as JPG file
+
 ```
 import cv2
 img = cv2.VideoCapture(0)
@@ -45,11 +45,11 @@ while(True):
 img.release()
 cv2.destroyAllWindows(
 ```
-```
 
 
- ## ii) Display the video
-```
+
+ ii) Display the video
+
 ```
 import cv2
 video = cv2.VideoCapture(0)
@@ -60,12 +60,12 @@ while (True):
         break
 video.release()
 ```
-```
+
 
 
 
  iii) Display the video by resizing the window
-```
+
 ```
 import cv2
 import numpy as np
@@ -86,13 +86,13 @@ while True:
 img.release()
 cv2.destroyAllWindows()
 ```
-```
+
 
 
 
 iv) Rotate and display the video
 
-```
+
 ```
 import cv2
 import numpy as np
@@ -112,14 +112,6 @@ while True:
         break
 img.release()
 cv2.destroyAllWindows()
-```
-
-
-
-
-
-```
-
 ```
 ## Output
 
